@@ -1,0 +1,50 @@
+h1{
+    font-size: 4rem;
+    font-weight: 600;
+    margin-bottom: 10%;
+}
+
+h2{
+    font-size: 3rem;
+    font-weight: 600;
+    margin-top: 0;
+}
+
+p{
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.text_area_div{
+    display: flex;
+    column-width: 40% ;
+    width: 100%;
+    column-gap: 139px;
+    row-gap: 100px;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 10%;
+}
+.text_area_{
+    width: 37%;
+    height: auto;
+}
+
+.img_style{
+    width: 100%;
+       
+    background-color: transparent;
+    transition: 1s;
+}
+
+.img_style:hover{
+        width: 90%;
+    
+}
+
+.comp_logo{
+    width: 37%;
+    background-color: #351146;
+    border-radius: 20px;
+    overflow: hidden;
+}

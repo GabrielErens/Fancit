@@ -1,0 +1,133 @@
+.Pakketten_container {
+  margin-top: 10%;
+  display: grid;
+  grid-template-columns: repeat(4, 23%);
+  column-gap: 2%;
+  grid-template-areas:
+    " Pakketten_container_h1 Pakketten_container_p Pakketten_container_p Pakketten_container_p "
+    "Pakketten_container_basis Pakketten_container_Continue Pakketten_container_comfort Pakketten_container_premium";
+}
+
+.Pakketten_container_h1 {
+  grid-area: Pakketten_container_h1;
+  font-size: 4rem;
+  margin: 0 auto auto auto;
+  z-index: 1;
+}
+
+.Pakketten_container_p {
+  grid-area: Pakketten_container_p;
+  width: 80%;
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1.5;
+  margin: 0 30% 0 16%;
+}
+
+.Pakketten_container_style {
+  border-radius: 20px;
+  margin-top: 30%;
+  padding-bottom: 20%;
+}
+.Pakketten_container_pricing_div_style {
+  background-color: rgba(0, 0, 0, 0.4);
+
+  height: 30%;
+  margin-top: 0;
+  border-radius: 20px 20px 0 0;
+}
+
+.Pakketten_container_pricing_div_style_h3 {
+  margin-top: 0;
+  font-size: 1.5rem;
+  padding-top: 10%;
+  padding-left: 10%;
+}
+
+.Pakketten_container_pricing_div_style_h1 {
+  font-size: 64px;
+  margin: 0;
+  padding-left: 10%;
+  font-weight: 500;
+}
+
+.Pakketten_container_pricing_div_style_p {
+  font-size: 12px;
+  padding-left: 10%;
+  margin: 0;
+}
+
+.Pakketten_container_basis {
+  grid-area: Pakketten_container_basis;
+  background-color: #53266a;
+}
+
+.Pakketten_container_Continue {
+  grid-area: Pakketten_container_Continue;
+  background-color: #2c687e;
+}
+
+.Pakketten_container_comfort {
+  grid-area: Pakketten_container_comfort;
+  background-color: #2e674f;
+}
+
+.Pakketten_container_premium {
+  grid-area: Pakketten_container_premium;
+  background-color: #886c22;
+}
+
+.Pakketten_container_btn {
+  margin: -7% 10% auto 10%;
+  width: 80%;
+  height: 40px;
+  text-align: left;
+  font-size: 1rem;
+  border-radius: 10px;
+  border-color: transparent;
+  color: #000;
+  font-weight: 500;
+  transition: 1s;
+}
+
+.Pakketten_container_btn:hover {
+  margin: -7% -10% auto 0%;
+  width: 100%;
+}
+
+.arow_img_position {
+  display: flex;
+  position: relative;
+
+}
+
+.Img_arow_right {
+  position: absolute;
+    margin-top: -3%;
+  margin-left: 75%;
+  display: block;
+  
+}
+
+
+
+.Pakketten_container_checklist_div_style {
+  display: grid;
+  grid-template-columns: 25px 202px;
+  column-gap: 20px;
+  margin-left: 17px;
+}
+
+.Pakketten_container_checklist_check {
+  width: 25px;
+  height: 25px;
+  border-radius: 9px;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #ffffff;
+  text-align: center;
+}
+
+.Pakketten_container_checklist_p {
+  font-weight: 500;
+  font-size: 16px;
+}

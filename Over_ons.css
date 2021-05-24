@@ -1,0 +1,176 @@
+/* ********************************************** Hero Text START ****************************************************** */
+
+.Hero_h1 {
+  font-size: 4rem;
+}
+
+.Hero_p {
+  font-size: 1.5rem;
+  font-weight: 700;
+  height: 11.7rem;
+  width: 60%;
+  overflow: scroll;
+  scrollbar-width: none;
+  line-height: 1.5;
+  margin: 0 auto 7% 0;
+}
+
+.Over_ons_a:hover {
+  color: #ffffff;
+  font-size: 0.9rem;
+}
+
+.Over_ons_a {
+  color: #ffffff50;
+  text-decoration: none;
+  margin-right: 6%;
+
+  font-weight: 700;
+  font-size: 1rem;
+  transition: 1s;
+}
+/* ********************************************** Hero Text END ****************************************************** */
+
+/* ********************************************** LG img START ****************************************************** */
+.hero_img {
+  width: 100%;
+  margin-top: 4%;
+  position: relative;
+}
+
+.img_arrow_left {
+  position: absolute;
+  margin-left: -88%;
+  margin-top: 21%;
+}
+
+.img_arrow_right {
+  position: absolute;
+  margin-left: 86%;
+  margin-top: -22%;
+}
+/* ********************************************** LG img END ****************************************************** */
+
+/* **************************************** Text Are After LG Img START ******************************************* */
+
+.text_area_after_main_img {
+  display: flex;
+  column-gap: 5%;
+  margin-top: 8%;
+}
+
+.text_area_after_main_img h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-top: 0;
+}
+
+.text_area_after_main_img p {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5;
+  width: 100%;
+  overflow: scroll;
+  scrollbar-width: none;
+  margin-bottom: 15%;
+}
+/* **************************************** Text Are After LG Img END ******************************************* */
+
+/* **************************************** Vacatures_section START ********************************************* */
+.Vacatures_section h1 {
+  font-size: 4rem;
+  margin-top: 0;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.Vacatures_section_p_and_btn_position {
+  display: flex;
+}
+
+.Vacatures_section p {
+  width: 40%;
+  margin: 3% 10% auto 0;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.Vacatures_section_btn_div {
+  width: 50%;
+  margin: 3% 0 auto 0;
+  position: relative;
+}
+
+.Vacatures_section_btn {
+  margin: 0 auto 20px auto;
+  background-color: #53266a;
+  width: 100%;
+  height: 60px;
+  border-radius: 20px;
+  border-color: transparent;
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 500;
+  text-align: left;
+  padding-left: 2rem;
+  transition: 1s;
+}
+
+.Vacatures_section_btn:hover {
+  width: 97%;
+  font-size: 1rem;
+}
+
+.Vacatures_section_btn_position {
+  margin: 2% 7% auto auto;
+  left: 90%;
+  position: absolute;
+}
+/* **************************************** Vacatures_section END ********************************************* */
+
+/* **************************************** TEAM SECTION START ************************************************ */
+.team_main_h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  width: 626px;
+  height: 84px;
+  margin: 0 auto 30px 0;
+}
+
+.Over_ons_img_container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  column-gap: 9%;
+  row-gap: 2%;
+  margin-top: 6%;
+  width: 100%;
+  margin-bottom: 22%;
+}
+
+.Over_ons_img_style_h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.Over_ons_img_style_p {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #ffffff5e;
+  
+}
+
+.Over_ons_linkedIn_img {
+width: 12%;
+margin-right: 10%;
+
+}
+
+.team_likedIn_a_tag {
+  text-decoration: underline;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: bold;
+}
+/* ************************************************** TEAM SECTION END********************************************** */
